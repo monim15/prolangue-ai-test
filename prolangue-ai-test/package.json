@@ -1,0 +1,14 @@
+{
+  "name": "prolangue-ai-test",
+  "version": "2.0.0",
+  "private": true,
+  "description": "ProLangue AI Test: minimal Android prototype, direct Gemini translation (private test build)",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check:gemini": "node scripts/real-gemini-check.mjs",
+    "build:apk": "cap sync android && cd android && gradlew.bat assembleDebug",
+    "build:apk:linux": "cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": { "@capacitor/android": "^8.6.2", "@capacitor/core": "^8.6.2" },
+  "devDependencies": { "@capacitor/cli": "^8.6.2" }
+}

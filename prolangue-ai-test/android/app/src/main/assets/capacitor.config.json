@@ -1,0 +1,10 @@
+{
+	"appId": "com.prolangue.aitest",
+	"appName": "ProLangue AI Test",
+	"webDir": "www",
+	"plugins": {
+		"CapacitorHttp": {
+			"enabled": true
+		}
+	}
+}
