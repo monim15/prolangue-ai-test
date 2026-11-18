@@ -6,7 +6,7 @@
 (function (root) {
   "use strict";
   var LANGS = { ar: "Arabic", fr: "French", es: "Spanish", tr: "Turkish" };
-  var DEFAULT_MODEL = "gemini-2.5-flash";
+  var DEFAULT_MODEL = "gemini-3.8-flash";
   var BASE = "https://generativelanguage.googleapis.com";
   var KINDS = ["word", "phrase", "sentence"];
   var MAX_CHARS = 200;
